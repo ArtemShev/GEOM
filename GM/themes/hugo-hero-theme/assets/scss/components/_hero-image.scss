@@ -1,12 +1,9 @@
 .hero-image {
-    background-size: inherit;
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-blend-mode: overlay;
     background-color: $primary;
     height: 400px;
     position: relative;
     padding-top: 60px;
+    border-bottom: 1px solid #000;
     .container {
         height: 100%;
         display: flex;
@@ -18,8 +15,9 @@
     }
     .hero-text {
         flex: 0;
-        color: #ffffff;
+        color: #000;
         margin: auto 0;
+        text-align: -webkit-center;
         h1 {
             font-size: 3rem;
             @include media-breakpoint-up(md) {
