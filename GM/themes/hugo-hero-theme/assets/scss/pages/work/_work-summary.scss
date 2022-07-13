@@ -1,6 +1,20 @@
 .work-summary {
     display: flex;
-    // flex-direction: column;
+    @include media-breakpoint-up(xs) {
+        flex-direction: column;
+    }
+    @include media-breakpoint-up(sm) {
+        flex-direction: column;
+    }
+    @include media-breakpoint-up(md) {
+        flex-direction: column;
+    }
+    @include media-breakpoint-up(lg) {
+        flex-direction: row;
+    }
+    @include media-breakpoint-up(xl) {
+        flex-direction: row;
+    }
     .work-image {
         // max-height: 400px;
         overflow: hidden;
@@ -23,9 +37,4 @@
             font-size: 0.9rem;
         }
     }
-}
-
-.wrp {
-    display: flex;
-    flex-direction: column;
 }

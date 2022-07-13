@@ -5,9 +5,8 @@ draft: false
 weight: 3
 heroHeading: 'Наш следующий проект'
 heroSubHeading: 'Dockyard construction planning and review.'
-thumbnail: 'https://source.unsplash.com/tjX_sniNzgQ/400x300'
+thumbnail: 'work/work1-thumbnail.jpg'
 images: ['https://source.unsplash.com/random/400x600/?nature']
-
 ---
 
 Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.

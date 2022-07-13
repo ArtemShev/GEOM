@@ -6090,7 +6090,20 @@ html {
   background-color: #c5c9ba; }
 
 .work-summary {
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 576px) {
+    .work-summary {
+      flex-direction: column; } }
+  @media (min-width: 768px) {
+    .work-summary {
+      flex-direction: column; } }
+  @media (min-width: 992px) {
+    .work-summary {
+      flex-direction: row; } }
+  @media (min-width: 1300px) {
+    .work-summary {
+      flex-direction: row; } }
   .work-summary .work-image {
     overflow: hidden; }
     .work-summary .work-image img {
@@ -6106,10 +6119,6 @@ html {
     .work-summary .work-content p {
       color: #666;
       font-size: 0.9rem; }
-
-.wrp {
-  display: flex;
-  flex-direction: column; }
 
 .page-work-single h1.title {
   font-size: 3rem;
