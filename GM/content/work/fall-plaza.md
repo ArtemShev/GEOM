@@ -5,7 +5,7 @@ draft: false
 weight: 1
 heroHeading: 'Анализ Облаков'
 heroSubHeading: 'Revitalising a public space in Spain.'
-heroBackground: 'work/work1.jpg'
+
 thumbnail: 'work/work1-thumbnail.jpg'
 images: ['https://source.unsplash.com/random/400x600/?nature']
 ---
