@@ -16,10 +16,10 @@
                 font-weight: regular;
                 text-transform: uppercase;
                 text-decoration: none;
-                color: $primary;
+                color: #000;
                 &:hover {
                     background: $primary;
-                    color: #ffffff;
+                    color: #000;
                     text-decoration: none;
                 }
             }
@@ -27,12 +27,12 @@
                 >a {
                     background: $primary;
                     text-decoration: none;
-                    color: #ffffff;
+                    color: #000;
                     &:hover {
                         text-decoration: none;
                         background: $primary;
                         transition: all 225ms ease-in 0s;
-                        color: #ffffff;
+                        color: #000;
                     }
                 }
             }

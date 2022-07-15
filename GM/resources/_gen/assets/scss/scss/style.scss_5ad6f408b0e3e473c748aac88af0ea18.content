@@ -5611,20 +5611,20 @@ ol {
         font-weight: regular;
         text-transform: uppercase;
         text-decoration: none;
-        color: #c5c9ba; }
+        color: #000; }
         .main-menu > ul > li > a:hover {
           background: #c5c9ba;
-          color: #ffffff;
+          color: #000;
           text-decoration: none; }
       .main-menu > ul > li.active > a {
         background: #c5c9ba;
         text-decoration: none;
-        color: #ffffff; }
+        color: #000; }
         .main-menu > ul > li.active > a:hover {
           text-decoration: none;
           background: #c5c9ba;
           transition: all 225ms ease-in 0s;
-          color: #ffffff; }
+          color: #000; }
 
 .main-menu-mobile {
   position: fixed;
